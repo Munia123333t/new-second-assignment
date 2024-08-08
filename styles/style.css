@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.inter-family {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar-related-work */
+.display-flex{
+  display: flex;
+}
+.white{
+  color: rgb(255, 255, 255);
+}
+.gray{
+  color: rgba(255, 255, 255, 0.5);
+}
+.logo{
+  color: rgb(230, 83, 60);
+     font-weight: 800;
+     font-size: 2.25rem;
+     font-style: italic;
+     width: 132px;
+     height: 43px;  
+     margin: 50px 130px; 
+    
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 50px 130px;
+}
+ nav ul li {
+  list-style: none;
+  margin-right: 47px;
+  padding: 3px; 
+}
+ul li a{
+  text-decoration: none;
+  
+  color: rgb(255, 255, 255);
+  font-size: 1.12rem;
+  font-weight: 400;
+  text-decoration: none;
+  
+}
+.nav-bar,.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ul{
+  box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+ 
+width: 445px;
+height: 40px;
+margin: 50px 130px;
+}
+.first-btn{
+  width: 92px;
+height: 35px;
+border-radius: 46px;
+background: rgb(230, 83, 60);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 1.12rem;
+font-weight: 400; 
+}
+header{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+
