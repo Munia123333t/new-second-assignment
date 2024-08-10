@@ -359,16 +359,17 @@ padding: 16px 40px 16px 40px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-  left: 70px;
+  left: 100px;
   width: 400px;
   height: 250px;
 }
 .card-img{
-  width: 340px;
-  height: 310px;    
+  width: 350px;
+  height: 310px;
+  margin-left: 40px;    
 }
 .card-img img{
-  width: 340px;
+  width: 350px;
   height: 310px;
   border-radius: 18px;
   background: url(4);
@@ -382,7 +383,30 @@ padding: 16px 40px 16px 40px;
 /* divvv */
 .calculator{
   margin-top: 100px;
+  
+  
 }
+.meet-team{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+font-weight: 900;
+margin-right: 270px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+  
+
+}
+
+.everyone{
+  color: rgba(255, 255, 255, 0.5);
+  
+  font-size: 1rem;
+font-weight: 400;
+margin-left: 300px;
+}
+/* start-table-section */
 .table-section{
   position: static;
 max-width: 1400px;
@@ -438,35 +462,167 @@ align-items: flex-start;
 padding: 0px;
 margin: 34px 0px;
 }
-.meet-team{
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
-font-weight: 900;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+/* fifth-section-related-work */
+.fifth-section{
+    
+  position: static;
+  width: 1020px;
+  height: 580px;
+  margin-top: 58px;
+  margin-left: 100px;
+  margin-right: 250px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  color: rgba(0, 0, 0, 0.2);
   
-
 }
 .team{
   position: static;
 width: 671px;
 height: 120px;
 text-align: center;
+margin-left: 270px;
 
-margin-left: 350px;
 margin-top: 100px;
 }
-.everyone{
-  color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  align-items: center;
+.our-team{
+  margin-right: 200px;
   text-align: center;
-  justify-content: center;
+  margin: 14px 0px;
+  font-size: 3rem;
+font-weight: 900;
+}
+.ever{
+  margin-left: 20px;
   font-size: 1rem;
 font-weight: 400;
 }
+/* img-section-start */
+.six-img{
+  position:relative;
+width: 310px;
+height: 260px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2);
+background: rgba(0, 0, 0, 0.2),url(image);
+
+}
+.cady-fish{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  
+
+}
+.all-header{
+  position: absolute;
+  top: 180px;
+  color: rgb(255, 255, 255);
+  left: 10px;
+}
+.all-para{
+  position: absolute;
+  top: 210px;
+  color: rgba(255, 255, 255, 0.5);
+  left: 10px;
+}
+/* footer-related-work */
+.last-section{
+  position: static;
+  max-width: 1400px;
+  height: 487px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 70px;
+  padding: 0px;
+}
+.all-sector{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ display: flex;
+ width: 1059px;
+height: 400px;
+left: 190px;
+
+
+}
+.first-sector{
+  width: 400px;
+  height: 84px;
+ 
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 0 50px;
+  
+}
+.fitt{
+  font-style: italic;
+  color: rgb(230, 83, 60);
+font-size: 4.35rem;
+font-weight: 800;
+margin: 20px 0px;
+}
+.second-sector{
+  width: 181px;
+  height: 249px;
+  margin: 0px 100px;
+  
+}
+.start{
+  color: rgb(255, 255, 255);
+font-size: 2rem;
+font-weight: 700;
+margin: 39px 0px;
+
+}
+.serve{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 1.43rem;
+font-weight: 400;
+}
+.third-sector{
+  width: 181px;
+  height: 249px;
+}
+#horaizontal-line{
+  position: absolute;
+  width: 1000px;
+height: 0;
+margin-top: 300px;
+text-align: center;
+border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.finish{
+  position: absolute;
+  width: 350px;
+  left: 500px;
+  color: rgba(255, 255, 255, 0.5);
+font-size: 1.25rem;
+font-weight: 400;
+margin-top: 180px;
+
+text-align: left;
+align-items: center;
+justify-content: center;
+}
+
+
 
 @media screen and (max-width:576px) {
     .nav-bar,ul{
