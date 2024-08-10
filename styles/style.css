@@ -423,15 +423,19 @@ padding: 0px;
   font-weight: 900;
   font-size: 1.13rem;
   color: rgb(255, 255, 255);
-position: static;
-width: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+width: 440px;
 height: 400px;
-left: 60px;
 
 }
 td ,th{
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 5px;
+  text-align: left;
 }
 table{
   border-collapse: collapse;
@@ -444,6 +448,8 @@ left: 150px;
 .all-td{
   font-size: 1rem;
 font-weight: 400;
+text-align: left;
+
 }
 .table-form{
   display: flex;
@@ -451,17 +457,26 @@ font-weight: 400;
   align-items: center;
   text-align: center;
 }
-.form-work{
-  position: static;
-width: 577px;
-height: 96px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-margin: 34px 0px;
+.height-weight{
+  
 }
+.input-box{
+
+}
+input,select{
+  border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+width: 282.5px;
+height: 48px;
+}
+#select-fact{
+  width: 577px;
+height: 48px;
+}
+
+
+
 /* fifth-section-related-work */
 .fifth-section{
     
