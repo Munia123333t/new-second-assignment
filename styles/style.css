@@ -591,10 +591,11 @@ font-weight: 400;
 width: 310px;
 height: 260px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
 background: rgba(0, 0, 0, 0.2),url(image);
+filter: brightness(0.9);
 
 }
+
 .cady-fish{
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -676,7 +677,7 @@ margin: 39px 0px;
 }
 .serve{
   color: rgba(255, 255, 255, 0.5);
-font-size: 1.43rem;
+font-size: 1.20rem;
 font-weight: 400;
 }
 .third-sector{
