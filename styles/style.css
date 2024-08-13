@@ -60,6 +60,7 @@ nav #icon{
  nav ul li {
   list-style: none;
   margin-right: 47px;
+  padding: 3px;
   
 }
 ul li a{
@@ -88,8 +89,7 @@ align-items: center;
   justify-content: space-evenly;
   text-align: center;
  position: static;
-width: 445px;
-height: 40px;
+
 margin: 50px 130px;
 }
 .first-btn{
