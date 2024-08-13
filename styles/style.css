@@ -43,6 +43,7 @@ body{
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  position: static;
 }
 nav #icon{
   color: rgb(255, 255, 255);
@@ -81,7 +82,7 @@ border-radius: 39px;
 align-items: center;
   justify-content: space-evenly;
   text-align: center;
- 
+ position: static;
 width: 445px;
 height: 40px;
 margin: 50px 130px;
