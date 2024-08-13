@@ -73,8 +73,7 @@ ul li a{
   text-decoration: none;
   
 }
-.nav-bar,.banner{
- 
+.nav-bar{
   margin: 0 auto;
 }
 .border-box{
@@ -132,6 +131,7 @@ header{
   display: flex;
   justify-content: space-between;
   margin: 50px 130px;
+  
    
 }
 
@@ -733,13 +733,7 @@ justify-content: center;
 
 
 
-@media screen and (max-width:576px) {
-    .nav-bar,ul{
-      flex-direction: column;
-    }
-    .banner{
-      margin: 20px;
-    }
-}
+
+    
 
 
