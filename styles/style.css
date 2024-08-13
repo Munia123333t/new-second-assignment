@@ -18,6 +18,7 @@
 body{
    background: black;
 }
+
 /* navbar-related-work */
 .display-flex{
   display: flex;
@@ -56,6 +57,7 @@ nav #icon{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
  
 }
  nav ul li {
@@ -80,7 +82,9 @@ ul li a{
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  width: 445px;
+  width: 450px;
+  padding: 0px 80px 0px 80px;
+
 }
 .four-items{
   display: flex;
@@ -107,6 +111,9 @@ border: none;
 color: rgb(255, 255, 255);
 font-size: 1.12rem;
 font-weight: 400; 
+text-align: center;
+align-items: center;
+
 }
 header{
   background: linear-gradient(180.00deg, rgb(17, 17, 17)100%,
@@ -729,6 +736,33 @@ margin-top: 180px;
 text-align: left;
 align-items: center;
 justify-content: center;
+}
+/* responsive-part-start */
+@media screen and (max-width:576px){
+  .border-box,.four-items{
+    display: none;
+  }
+  #icon{
+    display: block;
+  }
+  .banner{
+    margin: 20px;
+    width: 100%;
+  }
+  .banner,button{
+    flex-direction: row;
+  }
+  .first-img{
+    
+  }
+  .second-img{
+    flex-direction: column;
+  }
+  .second-contant,
+  .third-section,
+  .contant-title{
+    flex-direction: column;
+  }
 }
 
 
